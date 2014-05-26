@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans&subset=latin-ext,cyrillic);
+
+* {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	color: #2e2e2e;
+}
+
+.container {
+	width: 80%;
+	max-width: 1200px;
+	margin: auto;
+	text-align: center;
+	cursor: default;
+}
+
+nav {
+	width: 100%;
+	height: 150px;
+	padding: 25px 0;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+a {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 10px 45px;
+	text-decoration: none;
+	color: #fff;
+	background: #ec543b;
+	font-size: 2em;
+}
+
+a:hover {
+	background: #3b7bec;
+}
+
+.question {
+	display: block;
+	margin: 2em auto;
+	width: 70%;
+	max-width: 900px;
+	border: 5px solid #3b7bec;
+	padding: 1em;
+	cursor: default;
+}
+
+.question h4 {
+	margin: 0 0 1em 0;
+	font-size: 1.5em;
+	padding-bottom: .5em;
+	border-bottom: 5px solid #3b7bec;
+}
+
+.question p {
+	line-height: 1.5;
+	text-align: left;
+}
+
+.question p:hover {
+	color: #3b7bec;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.question span {
+	text-align: center;
+	display: block;
+	font-size: 1.5em;
+}
+
+.right-answer {
+	background: #3bec54;
+	color: #000;
+}
+
+.wrong-answer {
+	background: #ec543b;
+	color: #fff;
+	border: 5px solid #3b7bec;
+}
+
+.check-answers {
+	display: block;
+	margin: 2.5em auto;
+	border: none;
+	background: #ec543b;
+	color: #fff;
+	padding: 10px 45px;
+	cursor: pointer;
+}
+
+.check-answers:hover {
+	background: #3b7bec;
+}
